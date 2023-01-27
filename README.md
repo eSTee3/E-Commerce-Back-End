@@ -15,15 +15,13 @@
 6. Enter `source db/schema.sql` to source the Database to your MySQL instance
 7. Enter `use ecommerce_db`to change the in-use Database to "ecommerce_db"
 8. Enter `exit` to go back to the standard terminal prompt
-9. Enter `npm run seed` to seed the newly created ecommerce_db Database
-10. Enter `npm start` to initialize and launch the api server and complete this process
+9. Enter `npm install` to install all required packages and wait for them to complete
+10. Enter `npm run seed` to seed the newly created ecommerce_db Database
+11. Enter `npm start` to initialize and launch the api server and complete this process
 
 ## User Story
-```
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
+**AS A** manager at an internet retail company...  **I WANT** a back end for my e-commerce website that uses the latest technologies...  **SO THAT** my company can compete with other e-commerce companies
+
 ## Acceptance Criteria
 ```
 GIVEN a functional Express.js API
