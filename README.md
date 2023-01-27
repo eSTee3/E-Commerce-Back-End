@@ -2,13 +2,15 @@
 
 # Installation
 1. Download or clone this repo to your local machine
-2. Launch a terminal from the root of where you placed it's contents
-3. Log into MySQL by entering `mysql -u root -p`, followed by entering your password
-4. Enter `source db/schema.sql` to source the Database to your MySQL instance
-5. Enter `use ecommerce_db`to change the in-use Database to "ecommerce_db"
-6. Enter `exit` to go back to the standard terminal prompt
-7. Enter `npm run seed` to seed the newly created ecommerce_db Database
-8. Enter `npm start` to initialize and launch the api server and complete this process
+2. Find the `.cnv` file within the root of the folder and change it to `.env`
+3. Update the `'rootPassword'` within that file, to be your MySQL root password
+4. Launch a terminal from the root of the same folder
+5. Log into MySQL by entering `mysql -u root -p`, followed by entering your password
+6. Enter `source db/schema.sql` to source the Database to your MySQL instance
+7. Enter `use ecommerce_db`to change the in-use Database to "ecommerce_db"
+8. Enter `exit` to go back to the standard terminal prompt
+9. Enter `npm run seed` to seed the newly created ecommerce_db Database
+10. Enter `npm start` to initialize and launch the api server and complete this process
 
 ## User Story
 ```
