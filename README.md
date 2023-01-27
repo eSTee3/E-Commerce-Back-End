@@ -2,7 +2,7 @@
 
 # Installation
 1. Download or clone this repo to your local machine
-2. Create a `.env` file in the root of where you downloaded this repo
+2. Create a `.env` file in the root of the directory (within your IDE of choice)
  - Copy/paste the following code into the .env file you created, changing the password to be your MySQL root password:
  ```
   DB_NAME = 'ecommerce_db'
