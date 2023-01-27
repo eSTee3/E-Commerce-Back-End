@@ -2,7 +2,13 @@
 
 # Installation
 1. Download or clone this repo to your local machine
-2. Find the `.cnv` file within the root of the folder and change it to `.env`
+2. Create a `.env` file in the root of where you downloaded this repo
+ - Copy/paste the following code into the .env file you created, changing the password to be your MySQL root password:
+ ```
+  DB_NAME = 'ecommerce_db'
+  DB_USER = 'root'
+  DB_PW = 'password'
+ ```
 3. Update the `'rootPassword'` within that file, to be your MySQL root password
 4. Launch a terminal from the root of the same folder
 5. Log into MySQL by entering `mysql -u root -p`, followed by entering your password
