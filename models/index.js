@@ -11,7 +11,8 @@ Product.belongsTo(Category, {
 
 // Category has many Product models.
 Category.hasMany(Product, {
-  foreignKey: 'category_id'
+  foreignKey: 'category_id',
+  onDelete: 'CASCADE'
 });
 
 // Product belongs to many Tag models. Using the ProductTag through model, allow products to have multiple tags and tags to have many products.
