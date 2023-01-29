@@ -52,6 +52,9 @@ I present you with a backend solution to an eCommerce front end.  It utilizes My
 9. Enter `npm install` to install all required packages and wait for them to complete
 10. Enter `npm run seed` to seed the newly created ecommerce_db Database
 11. Enter `npm start` to initialize and launch the api server and complete this process
+    - Steps 5 through 11:
+
+        <img src="./resources/Source Seed and Start the DB.gif" width="50%" height="50%"/>
 
 [Back to Top](#table-of-contents)
 
